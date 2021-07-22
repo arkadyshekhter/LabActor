@@ -230,7 +230,7 @@
 		</Item>
 		<Item Name="Launch LabActor.vi" Type="VI" URL="../Launch LabActor.vi"/>
 		<Item Name="RP EEPROM to Scale.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP EEPROM to Scale.vi"/>
-		<Item Name="gyro-pll-V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro-pll-V3.vi"/>
+		<Item Name="gyro app -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro app -- V1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -855,7 +855,6 @@
 			<Item Name="server talkback message type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/server talkback message type.ctl"/>
 			<Item Name="server talk-to-back pair.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/server talk-to-back pair.ctl"/>
 			<Item Name="gyro -- sourcer async - V3 -- mfli.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- sourcer async - V3 -- mfli.vi"/>
-			<Item Name="gyro -- launch async sourcer.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async sourcer.vi"/>
 			<Item Name="PID - mode.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PID - mode.ctl"/>
 			<Item Name="pll parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pll parameters.ctl"/>
 			<Item Name="publish -- pll parameters.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- pll parameters.vi"/>
@@ -870,13 +869,10 @@
 			<Item Name="lorentzian transformations.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/lorentzian transformations.vi"/>
 			<Item Name="PID action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PID action.ctl"/>
 			<Item Name="pid -- parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pid -- parameters.ctl"/>
-			<Item Name="PLL analyzer -- PID -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL analyzer -- PID -- V2.vi"/>
 			<Item Name="Q - not nan -- integer.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q - not nan -- integer.vi"/>
 			<Item Name="Q -- check range -- i -- integer.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q -- check range -- i -- integer.vi"/>
 			<Item Name="line -- complex.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/line -- complex.vi"/>
 			<Item Name="linear interp iiii- complex - z-omega.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/linear interp iiii- complex - z-omega.vi"/>
-			<Item Name="gyro pll async.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro pll async.vi"/>
-			<Item Name="gyro -- launch async pll.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async pll.vi"/>
 			<Item Name="show-win- control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/show-win- control.ctl"/>
 			<Item Name="publish -- sweeper window.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- sweeper window.vi"/>
 			<Item Name="cursor winow.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor winow.ctl"/>
@@ -897,15 +893,11 @@
 			<Item Name="cursor window action stack.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window action stack.vi"/>
 			<Item Name="cursor window state.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window state.ctl"/>
 			<Item Name="cursor window logic V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window logic V3.vi"/>
-			<Item Name="gyro-sweeper-module-V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro-sweeper-module-V3.vi"/>
-			<Item Name="gyro -- launch async sweeper server.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async sweeper server.vi"/>
 			<Item Name="array - generate range.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array - generate range.vi"/>
 			<Item Name="array -- sort 2D array -- Complex.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- sort 2D array -- Complex.vi"/>
 			<Item Name="freq scan type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/freq scan type.ctl"/>
 			<Item Name="array - generate range V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array - generate range V3.vi"/>
 			<Item Name="gyro -- async sweeper parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper parameters.ctl"/>
-			<Item Name="gyro -- async sweeper.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper.vi"/>
-			<Item Name="gyro -- launch async sweeper.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async sweeper.vi"/>
 			<Item Name="replace cursor - plot ref.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/replace cursor - plot ref.vi"/>
 			<Item Name="draw -- set cursors for lorenzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw -- set cursors for lorenzian.vi"/>
 			<Item Name="generate linear region.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/generate linear region.vi"/>
@@ -941,7 +933,6 @@
 			<Item Name="KM_peak -- find -- pm - V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_peak -- find -- pm - V1.vi"/>
 			<Item Name="acquire cursor window data.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/acquire cursor window data.vi"/>
 			<Item Name="gyro -- async fitter.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async fitter.vi"/>
-			<Item Name="gyro -- launch async fitter.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async fitter.vi"/>
 			<Item Name="draw complex lorentzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw complex lorentzian.vi"/>
 			<Item Name="pll internal user event action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pll internal user event action.ctl"/>
 			<Item Name="PLL -- data source -- V3 -- arydh.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- arydh.vi"/>
@@ -966,14 +957,26 @@
 			<Item Name="ARydh_set_freq-and-get--V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/ARydh_set_freq-and-get--V1.vi"/>
 			<Item Name="PLL -- data source -- V3 -- meta.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- meta.vi"/>
 			<Item Name="publish -- set frequency.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- set frequency.vi"/>
-			<Item Name="MFLI -- publish -- progress.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI -- publish -- progress.vi"/>
-			<Item Name="gyro -- sourcer async - V3 -- arydh.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- sourcer async - V3 -- arydh.vi"/>
-			<Item Name="FPGASharedResources_HarmonicTypdef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_HarmonicTypdef.ctl"/>
-			<Item Name="FPGASharedResources_LockinTypeTypedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_LockinTypeTypedef.ctl"/>
-			<Item Name="FPGASharedResources_DutyCycleCtrl_Typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_DutyCycleCtrl_Typedef.ctl"/>
-			<Item Name="LIControl_LockinCtrl_typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek Host/LIControl/LIControl_LockinCtrl_typedef.ctl"/>
-			<Item Name="PLL -- data source -- V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3.vi"/>
-			<Item Name="MCL_Set_LockinCtrl.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Set_LockinCtrl.vi"/>
+			<Item Name="que event bag action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/que event bag action.ctl"/>
+			<Item Name="arr action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/arr action.ctl"/>
+			<Item Name="gyro -- async sweeper engine.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper engine.vi"/>
+			<Item Name="gyro -- async sweeper monitor V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper monitor V3.vi"/>
+			<Item Name="draw a complex arrow.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a complex arrow.vi"/>
+			<Item Name="draw a complex line.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a complex line.vi"/>
+			<Item Name="launch items list.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch items list.ctl"/>
+			<Item Name="array -- freq-voltage transformations action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- freq-voltage transformations action.ctl"/>
+			<Item Name="array -- freq-voltage transformations.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- freq-voltage transformations.vi"/>
+			<Item Name="launch process event pair bag -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch process event pair bag -- V2.vi"/>
+			<Item Name="gyro -- async pll engine V2 owl.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async pll engine V2 owl.vi"/>
+			<Item Name="owl parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl parameters.ctl"/>
+			<Item Name="owl action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl action.ctl"/>
+			<Item Name="owl -- send for fit action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl -- send for fit action.ctl"/>
+			<Item Name="PLL analyzer -- PID -- V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL analyzer -- PID -- V3.vi"/>
+			<Item Name="owl actions.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl actions.vi"/>
+			<Item Name="gyro -- async pll monitor V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async pll monitor V1.vi"/>
+			<Item Name="event pair -- create.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/event pair -- create.vi"/>
+			<Item Name="gyro -- launch async vi -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async vi -- V1.vi"/>
+			<Item Name="launch process ref bag -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch process ref bag -- V2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LabActor" Type="EXE">
