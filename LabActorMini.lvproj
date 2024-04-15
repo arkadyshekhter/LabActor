@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -230,7 +230,7 @@
 		</Item>
 		<Item Name="Launch LabActor.vi" Type="VI" URL="../Launch LabActor.vi"/>
 		<Item Name="RP EEPROM to Scale.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP EEPROM to Scale.vi"/>
-		<Item Name="gyro app -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro app -- V1.vi"/>
+		<Item Name="gyro app -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro app -- V1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -817,131 +817,157 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.framework" Type="Document" URL="/&lt;resource&gt;/lvanlys.framework"/>
-			<Item Name="circle corners.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/circle corners.ctl"/>
-			<Item Name="lorentzian.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/lorentzian.ctl"/>
-			<Item Name="publisher action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publisher action.ctl"/>
-			<Item Name="publish -- lorentzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- lorentzian.vi"/>
-			<Item Name="publish -- get frequency and voltage.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- get frequency and voltage.vi"/>
-			<Item Name="array - smart min max.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array - smart min max.vi"/>
-			<Item Name="Q - not nan -- real.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q - not nan -- real.vi"/>
-			<Item Name="comparison control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/comparison control.ctl"/>
-			<Item Name="Q -- check range -- i -- real.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q -- check range -- i -- real.vi"/>
-			<Item Name="Q - not nan and gtr than zero - Real.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q - not nan and gtr than zero - Real.vi"/>
-			<Item Name="range multiplier action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/range multiplier action.ctl"/>
-			<Item Name="Q -- range multiplier -- real -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q -- range multiplier -- real -- V2.vi"/>
-			<Item Name="cursor action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor action.ctl"/>
-			<Item Name="stack action -- control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/stack action -- control.ctl"/>
-			<Item Name="replace cursor action stack.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/replace cursor action stack.vi"/>
-			<Item Name="2Dwindow-bounds.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/2Dwindow-bounds.ctl"/>
-			<Item Name="2Dwindow.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/2Dwindow.ctl"/>
-			<Item Name="cursor sate.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor sate.ctl"/>
-			<Item Name="replace cursor - plot ref - V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/replace cursor - plot ref - V2.vi"/>
-			<Item Name="pll talkback data type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pll talkback data type.ctl"/>
-			<Item Name="publish -- pll result.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- pll result.vi"/>
-			<Item Name="MFLI_set_datarate -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_set_datarate -- V1.vi"/>
-			<Item Name="MFLI_set_amplitude -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_set_amplitude -- V1.vi"/>
-			<Item Name="MFLI_get_voltage -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_get_voltage -- V1.vi"/>
-			<Item Name="MFLI -- publish -- mfli handle.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI -- publish -- mfli handle.vi"/>
-			<Item Name="MFLI_set_freq-and-get--V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_set_freq-and-get--V1.vi"/>
-			<Item Name="MFLI_set_frequency -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_set_frequency -- V1.vi"/>
-			<Item Name="data source action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/data source action.ctl"/>
-			<Item Name="PLL data source.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL data source.ctl"/>
-			<Item Name="PLL -- data source -- V3 -- mfli.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- mfli.vi"/>
-			<Item Name="PLL -- data source -- V3 -- wrapper.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- wrapper.vi"/>
-			<Item Name="MFLI frontend action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI frontend action.ctl"/>
-			<Item Name="MFLI_api -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI_api -- V2.vi"/>
-			<Item Name="mfli reader event.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/mfli reader event.ctl"/>
-			<Item Name="server talkto message type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/server talkto message type.ctl"/>
-			<Item Name="server talkback message type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/server talkback message type.ctl"/>
-			<Item Name="server talk-to-back pair.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/server talk-to-back pair.ctl"/>
-			<Item Name="gyro -- sourcer async - V3 -- mfli.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- sourcer async - V3 -- mfli.vi"/>
-			<Item Name="PID - mode.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PID - mode.ctl"/>
-			<Item Name="pll parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pll parameters.ctl"/>
-			<Item Name="publish -- pll parameters.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- pll parameters.vi"/>
-			<Item Name="linear interpolation - real.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/linear interpolation - real.vi"/>
-			<Item Name="linear interpolation iiii- complex.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/linear interpolation iiii- complex.vi"/>
-			<Item Name="agregator -- action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/agregator -- action.ctl"/>
-			<Item Name="interpolation state - real.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/interpolation state - real.ctl"/>
-			<Item Name="aggregator - vii - real - atomic.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/aggregator - vii - real - atomic.vi"/>
-			<Item Name="interpolation state - complex.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/interpolation state - complex.ctl"/>
-			<Item Name="aggregator - vii - complex - atomic.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/aggregator - vii - complex - atomic.vi"/>
-			<Item Name="four-corner circle transformation.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/four-corner circle transformation.ctl"/>
-			<Item Name="lorentzian transformations.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/lorentzian transformations.vi"/>
-			<Item Name="PID action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PID action.ctl"/>
-			<Item Name="pid -- parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pid -- parameters.ctl"/>
-			<Item Name="Q - not nan -- integer.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q - not nan -- integer.vi"/>
-			<Item Name="Q -- check range -- i -- integer.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Q -- check range -- i -- integer.vi"/>
-			<Item Name="line -- complex.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/line -- complex.vi"/>
-			<Item Name="linear interp iiii- complex - z-omega.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/linear interp iiii- complex - z-omega.vi"/>
-			<Item Name="show-win- control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/show-win- control.ctl"/>
-			<Item Name="publish -- sweeper window.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- sweeper window.vi"/>
-			<Item Name="cursor winow.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor winow.ctl"/>
-			<Item Name="publish -- fitter window.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- fitter window.vi"/>
-			<Item Name="file -- read-write control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/file -- read-write control.ctl"/>
-			<Item Name="KM_file - read-write - list of lines.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_file - read-write - list of lines.vi"/>
-			<Item Name="file -- 9w path.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/file -- 9w path.vi"/>
-			<Item Name="KM_file -- read-write control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_file -- read-write control.ctl"/>
-			<Item Name="KM_appendline -- freq sweep.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_appendline -- freq sweep.vi"/>
-			<Item Name="file -- get unique increment name.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/file -- get unique increment name.vi"/>
-			<Item Name="filename-generate-six-digit-thing.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filename-generate-six-digit-thing.vi"/>
-			<Item Name="filename-action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filename-action.ctl"/>
-			<Item Name="filename-pattern.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filename-pattern.ctl"/>
-			<Item Name="filename-manage.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filename-manage.vi"/>
-			<Item Name="file - read-write - list of lines.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/file - read-write - list of lines.vi"/>
-			<Item Name="MFLI -- publish -- freq scan.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/MFLI -- publish -- freq scan.vi"/>
-			<Item Name="cursor window action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window action.ctl"/>
-			<Item Name="cursor window action stack.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window action stack.vi"/>
-			<Item Name="cursor window state.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window state.ctl"/>
-			<Item Name="cursor window logic V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/cursor window logic V3.vi"/>
-			<Item Name="array - generate range.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array - generate range.vi"/>
-			<Item Name="array -- sort 2D array -- Complex.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- sort 2D array -- Complex.vi"/>
-			<Item Name="freq scan type.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/freq scan type.ctl"/>
-			<Item Name="array - generate range V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array - generate range V3.vi"/>
-			<Item Name="gyro -- async sweeper parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper parameters.ctl"/>
-			<Item Name="replace cursor - plot ref.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/replace cursor - plot ref.vi"/>
-			<Item Name="draw -- set cursors for lorenzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw -- set cursors for lorenzian.vi"/>
-			<Item Name="generate linear region.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/generate linear region.vi"/>
-			<Item Name="peak -- fit function -- minus arctan.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- fit function -- minus arctan.vi"/>
-			<Item Name="construct lorentzian - V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/construct lorentzian - V2.vi"/>
-			<Item Name="draw a circle.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a circle.vi"/>
-			<Item Name="draw a line.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a line.vi"/>
-			<Item Name="draw - 4 corner circle.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw - 4 corner circle.vi"/>
-			<Item Name="filter method control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filter method control.ctl"/>
-			<Item Name="wavepacket.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/wavepacket.ctl"/>
-			<Item Name="peak -- parameters -- complex fit.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- parameters -- complex fit.ctl"/>
-			<Item Name="plot refs -- filter related.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/plot refs -- filter related.ctl"/>
-			<Item Name="tale of three indices -- int -- control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/tale of three indices -- int -- control.ctl"/>
-			<Item Name="KM_filter pipe - plot staff - more - V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_filter pipe - plot staff - more - V3.vi"/>
-			<Item Name="circle center from three points.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/circle center from three points.vi"/>
-			<Item Name="peak - fit phase around center - V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak - fit phase around center - V2.vi"/>
-			<Item Name="peak -- four corner circle transformation logic.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- four corner circle transformation logic.vi"/>
-			<Item Name="peak -- get weights.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- get weights.vi"/>
-			<Item Name="peak -- fake phase around center.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- fake phase around center.vi"/>
-			<Item Name="peak -- estimate for lorentzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- estimate for lorentzian.vi"/>
-			<Item Name="peak -- z center from mult phase points.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- z center from mult phase points.vi"/>
-			<Item Name="tale of three indices --state.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/tale of three indices --state.ctl"/>
-			<Item Name="tale of three indices -- check state.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/tale of three indices -- check state.vi"/>
-			<Item Name="tale of three indices -- selector -- control.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/tale of three indices -- selector -- control.ctl"/>
-			<Item Name="command stack.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/command stack.vi"/>
-			<Item Name="peak -- guess at omega -- dzdomega V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- guess at omega -- dzdomega V2.vi"/>
-			<Item Name="containing bix.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/containing bix.vi"/>
-			<Item Name="linear interp iiii- complex - z-omega - divide.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/linear interp iiii- complex - z-omega - divide.vi"/>
-			<Item Name="tale of three indices.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/tale of three indices.vi"/>
-			<Item Name="filter -- window span logic.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filter -- window span logic.vi"/>
-			<Item Name="peak -- PM find lorenzian - V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/peak -- PM find lorenzian - V3.vi"/>
-			<Item Name="filter - complex - four.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/filter - complex - four.vi"/>
-			<Item Name="KM_peak -- find -- pm - V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/KM_peak -- find -- pm - V1.vi"/>
-			<Item Name="acquire cursor window data.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/acquire cursor window data.vi"/>
-			<Item Name="gyro -- async fitter.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async fitter.vi"/>
-			<Item Name="draw complex lorentzian.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw complex lorentzian.vi"/>
-			<Item Name="pll internal user event action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/pll internal user event action.ctl"/>
-			<Item Name="PLL -- data source -- V3 -- arydh.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- arydh.vi"/>
-			<Item Name="ARydh -- publish -- handle.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/ARydh -- publish -- handle.vi"/>
+			<Item Name="server talkto message type.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/server talkto message type.ctl"/>
+			<Item Name="server talkback message type.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/server talkback message type.ctl"/>
+			<Item Name="server talk-to-back pair.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/server talk-to-back pair.ctl"/>
+			<Item Name="gyro -- launch async vi -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- launch async vi -- V1.vi"/>
+			<Item Name="que event bag action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/que event bag action.ctl"/>
+			<Item Name="launch items list.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/launch items list.ctl"/>
+			<Item Name="launch process event pair bag -- V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/launch process event pair bag -- V2.vi"/>
+			<Item Name="event pair -- create.vi" Type="VI" URL="../../ark_all/arkady-arxiv/event pair -- create.vi"/>
+			<Item Name="circle corners.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/circle corners.ctl"/>
+			<Item Name="lorentzian.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/lorentzian.ctl"/>
+			<Item Name="publisher action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/publisher action.ctl"/>
+			<Item Name="publish -- lorentzian.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- lorentzian.vi"/>
+			<Item Name="Q - not nan -- real.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q - not nan -- real.vi"/>
+			<Item Name="replace cursor - plot ref.vi" Type="VI" URL="../../ark_all/arkady-arxiv/replace cursor - plot ref.vi"/>
+			<Item Name="draw -- set cursors for lorenzian.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw -- set cursors for lorenzian.vi"/>
+			<Item Name="generate linear region.vi" Type="VI" URL="../../ark_all/arkady-arxiv/generate linear region.vi"/>
+			<Item Name="peak -- fit function -- minus arctan.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- fit function -- minus arctan.vi"/>
+			<Item Name="construct lorentzian - V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/construct lorentzian - V2.vi"/>
+			<Item Name="draw a circle.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw a circle.vi"/>
+			<Item Name="draw a line.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw a line.vi"/>
+			<Item Name="draw - 4 corner circle.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw - 4 corner circle.vi"/>
+			<Item Name="linear interpolation iiii- complex.vi" Type="VI" URL="../../ark_all/arkady-arxiv/linear interpolation iiii- complex.vi"/>
+			<Item Name="four-corner circle transformation.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/four-corner circle transformation.ctl"/>
+			<Item Name="filter method control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/filter method control.ctl"/>
+			<Item Name="wavepacket.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/wavepacket.ctl"/>
+			<Item Name="peak -- parameters -- complex fit.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- parameters -- complex fit.ctl"/>
+			<Item Name="plot refs -- filter related.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/plot refs -- filter related.ctl"/>
+			<Item Name="tale of three indices -- int -- control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/tale of three indices -- int -- control.ctl"/>
+			<Item Name="KM_filter pipe - plot staff - more - V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/KM_filter pipe - plot staff - more - V3.vi"/>
+			<Item Name="cursor winow.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/cursor winow.ctl"/>
+			<Item Name="publish -- fitter window.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- fitter window.vi"/>
+			<Item Name="MFLI -- publish -- freq scan.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI -- publish -- freq scan.vi"/>
+			<Item Name="Q - not nan -- integer.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q - not nan -- integer.vi"/>
+			<Item Name="array - smart min max.vi" Type="VI" URL="../../ark_all/arkady-arxiv/array - smart min max.vi"/>
+			<Item Name="Q - not nan and gtr than zero - Real.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q - not nan and gtr than zero - Real.vi"/>
+			<Item Name="cursor action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/cursor action.ctl"/>
+			<Item Name="stack action -- control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/stack action -- control.ctl"/>
+			<Item Name="replace cursor action stack.vi" Type="VI" URL="../../ark_all/arkady-arxiv/replace cursor action stack.vi"/>
+			<Item Name="range multiplier action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/range multiplier action.ctl"/>
+			<Item Name="Q -- range multiplier -- real -- V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q -- range multiplier -- real -- V2.vi"/>
+			<Item Name="comparison control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/comparison control.ctl"/>
+			<Item Name="Q -- check range -- i -- integer.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q -- check range -- i -- integer.vi"/>
+			<Item Name="Q -- check range -- i -- real.vi" Type="VI" URL="../../ark_all/arkady-arxiv/Q -- check range -- i -- real.vi"/>
+			<Item Name="cursor window action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/cursor window action.ctl"/>
+			<Item Name="cursor window action stack.vi" Type="VI" URL="../../ark_all/arkady-arxiv/cursor window action stack.vi"/>
+			<Item Name="2Dwindow-bounds.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/2Dwindow-bounds.ctl"/>
+			<Item Name="2Dwindow.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/2Dwindow.ctl"/>
+			<Item Name="cursor sate.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/cursor sate.ctl"/>
+			<Item Name="replace cursor - plot ref - V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/replace cursor - plot ref - V2.vi"/>
+			<Item Name="cursor window state.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/cursor window state.ctl"/>
+			<Item Name="cursor window logic V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/cursor window logic V3.vi"/>
+			<Item Name="circle center from three points.vi" Type="VI" URL="../../ark_all/arkady-arxiv/circle center from three points.vi"/>
+			<Item Name="array - generate range.vi" Type="VI" URL="../../ark_all/arkady-arxiv/array - generate range.vi"/>
+			<Item Name="peak - fit phase around center - V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak - fit phase around center - V2.vi"/>
+			<Item Name="peak -- four corner circle transformation logic.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- four corner circle transformation logic.vi"/>
+			<Item Name="peak -- get weights.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- get weights.vi"/>
+			<Item Name="peak -- fake phase around center.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- fake phase around center.vi"/>
+			<Item Name="peak -- estimate for lorentzian.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- estimate for lorentzian.vi"/>
+			<Item Name="peak -- z center from mult phase points.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- z center from mult phase points.vi"/>
+			<Item Name="tale of three indices --state.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/tale of three indices --state.ctl"/>
+			<Item Name="tale of three indices -- check state.vi" Type="VI" URL="../../ark_all/arkady-arxiv/tale of three indices -- check state.vi"/>
+			<Item Name="tale of three indices -- selector -- control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/tale of three indices -- selector -- control.ctl"/>
+			<Item Name="command stack.vi" Type="VI" URL="../../ark_all/arkady-arxiv/command stack.vi"/>
+			<Item Name="peak -- guess at omega -- dzdomega V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- guess at omega -- dzdomega V2.vi"/>
+			<Item Name="line -- complex.vi" Type="VI" URL="../../ark_all/arkady-arxiv/line -- complex.vi"/>
+			<Item Name="containing bix.vi" Type="VI" URL="../../ark_all/arkady-arxiv/containing bix.vi"/>
+			<Item Name="linear interp iiii- complex - z-omega.vi" Type="VI" URL="../../ark_all/arkady-arxiv/linear interp iiii- complex - z-omega.vi"/>
+			<Item Name="linear interp iiii- complex - z-omega - divide.vi" Type="VI" URL="../../ark_all/arkady-arxiv/linear interp iiii- complex - z-omega - divide.vi"/>
+			<Item Name="tale of three indices.vi" Type="VI" URL="../../ark_all/arkady-arxiv/tale of three indices.vi"/>
+			<Item Name="filter -- window span logic.vi" Type="VI" URL="../../ark_all/arkady-arxiv/filter -- window span logic.vi"/>
+			<Item Name="peak -- PM find lorenzian - V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/peak -- PM find lorenzian - V3.vi"/>
+			<Item Name="filter - complex - four.vi" Type="VI" URL="../../ark_all/arkady-arxiv/filter - complex - four.vi"/>
+			<Item Name="lorentzian transformations.vi" Type="VI" URL="../../ark_all/arkady-arxiv/lorentzian transformations.vi"/>
+			<Item Name="KM_peak -- find -- pm - V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/KM_peak -- find -- pm - V1.vi"/>
+			<Item Name="arr action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/arr action.ctl"/>
+			<Item Name="acquire cursor window data.vi" Type="VI" URL="../../ark_all/arkady-arxiv/acquire cursor window data.vi"/>
+			<Item Name="show-win- control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/show-win- control.ctl"/>
+			<Item Name="gyro -- async fitter.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async fitter.vi"/>
+			<Item Name="publish -- sweeper window.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- sweeper window.vi"/>
+			<Item Name="file -- read-write control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/file -- read-write control.ctl"/>
+			<Item Name="KM_file - read-write - list of lines.vi" Type="VI" URL="../../ark_all/arkady-arxiv/KM_file - read-write - list of lines.vi"/>
+			<Item Name="file -- 9w path.vi" Type="VI" URL="../../ark_all/arkady-arxiv/file -- 9w path.vi"/>
+			<Item Name="KM_file -- read-write control.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/KM_file -- read-write control.ctl"/>
+			<Item Name="KM_appendline -- freq sweep.vi" Type="VI" URL="../../ark_all/arkady-arxiv/KM_appendline -- freq sweep.vi"/>
+			<Item Name="file -- get unique increment name.vi" Type="VI" URL="../../ark_all/arkady-arxiv/file -- get unique increment name.vi"/>
+			<Item Name="filename-generate-six-digit-thing.vi" Type="VI" URL="../../ark_all/arkady-arxiv/filename-generate-six-digit-thing.vi"/>
+			<Item Name="filename-action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/filename-action.ctl"/>
+			<Item Name="filename-pattern.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/filename-pattern.ctl"/>
+			<Item Name="filename-manage.vi" Type="VI" URL="../../ark_all/arkady-arxiv/filename-manage.vi"/>
+			<Item Name="file - read-write - list of lines.vi" Type="VI" URL="../../ark_all/arkady-arxiv/file - read-write - list of lines.vi"/>
+			<Item Name="array -- freq-voltage transformations action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/array -- freq-voltage transformations action.ctl"/>
+			<Item Name="array -- freq-voltage transformations.vi" Type="VI" URL="../../ark_all/arkady-arxiv/array -- freq-voltage transformations.vi"/>
+			<Item Name="gyro -- async sweeper monitor V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async sweeper monitor V3.vi"/>
+			<Item Name="MFLI_get_voltage -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_get_voltage -- V1.vi"/>
+			<Item Name="MFLI -- publish -- mfli handle.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI -- publish -- mfli handle.vi"/>
+			<Item Name="MFLI_set_freq-and-get--V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_set_freq-and-get--V1.vi"/>
+			<Item Name="MFLI_set_frequency -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_set_frequency -- V1.vi"/>
+			<Item Name="data source action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/data source action.ctl"/>
+			<Item Name="PLL data source.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/PLL data source.ctl"/>
+			<Item Name="PLL -- data source -- V3 -- mfli.vi" Type="VI" URL="../../ark_all/arkady-arxiv/PLL -- data source -- V3 -- mfli.vi"/>
+			<Item Name="publish -- get frequency and voltage.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- get frequency and voltage.vi"/>
+			<Item Name="publish -- set frequency.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- set frequency.vi"/>
+			<Item Name="PLL -- data source -- V3 -- meta.vi" Type="VI" URL="../../ark_all/arkady-arxiv/PLL -- data source -- V3 -- meta.vi"/>
+			<Item Name="Arydh  lockin fields.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/Arydh  lockin fields.ctl"/>
+			<Item Name="ARydh_get_voltage -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/ARydh_get_voltage -- V1.vi"/>
+			<Item Name="ARydh_set_frequency -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/ARydh_set_frequency -- V1.vi"/>
+			<Item Name="ARydh_set_freq-and-get--V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/ARydh_set_freq-and-get--V1.vi"/>
+			<Item Name="ARydh -- publish -- handle.vi" Type="VI" URL="../../ark_all/arkady-arxiv/ARydh -- publish -- handle.vi"/>
+			<Item Name="PLL -- data source -- V3 -- arydh.vi" Type="VI" URL="../../ark_all/arkady-arxiv/PLL -- data source -- V3 -- arydh.vi"/>
+			<Item Name="PLL -- data source -- V3 -- wrapper.vi" Type="VI" URL="../../ark_all/arkady-arxiv/PLL -- data source -- V3 -- wrapper.vi"/>
+			<Item Name="array -- sort 2D array -- Complex.vi" Type="VI" URL="../../ark_all/arkady-arxiv/array -- sort 2D array -- Complex.vi"/>
+			<Item Name="freq scan type.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/freq scan type.ctl"/>
+			<Item Name="array - generate range V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/array - generate range V3.vi"/>
+			<Item Name="gyro -- async sweeper parameters.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async sweeper parameters.ctl"/>
+			<Item Name="gyro -- async sweeper engine.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async sweeper engine.vi"/>
+			<Item Name="sparkle.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/sparkle.ctl"/>
+			<Item Name="tcplink publish -- map.vi" Type="VI" URL="../../ark_all/arkady-arxiv/tcplink publish -- map.vi"/>
+			<Item Name="pll talkback data type.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/pll talkback data type.ctl"/>
+			<Item Name="publish -- pll result.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- pll result.vi"/>
+			<Item Name="draw a complex line.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw a complex line.vi"/>
+			<Item Name="draw a complex arrow.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw a complex arrow.vi"/>
+			<Item Name="linear interpolation - real.vi" Type="VI" URL="../../ark_all/arkady-arxiv/linear interpolation - real.vi"/>
+			<Item Name="draw complex lorentzian.vi" Type="VI" URL="../../ark_all/arkady-arxiv/draw complex lorentzian.vi"/>
+			<Item Name="agregator -- action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/agregator -- action.ctl"/>
+			<Item Name="interpolation state - real.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/interpolation state - real.ctl"/>
+			<Item Name="aggregator - vii - real - atomic.vi" Type="VI" URL="../../ark_all/arkady-arxiv/aggregator - vii - real - atomic.vi"/>
+			<Item Name="interpolation state - complex.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/interpolation state - complex.ctl"/>
+			<Item Name="aggregator - vii - complex - atomic.vi" Type="VI" URL="../../ark_all/arkady-arxiv/aggregator - vii - complex - atomic.vi"/>
+			<Item Name="pll internal user event action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/pll internal user event action.ctl"/>
+			<Item Name="gyro -- async pll monitor V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async pll monitor V1.vi"/>
+			<Item Name="PID - mode.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/PID - mode.ctl"/>
+			<Item Name="pll parameters.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/pll parameters.ctl"/>
+			<Item Name="publish -- pll parameters.vi" Type="VI" URL="../../ark_all/arkady-arxiv/publish -- pll parameters.vi"/>
+			<Item Name="owl -- send for fit action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/owl -- send for fit action.ctl"/>
+			<Item Name="owl action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/owl action.ctl"/>
+			<Item Name="owl parameters.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/owl parameters.ctl"/>
+			<Item Name="owl actions.vi" Type="VI" URL="../../ark_all/arkady-arxiv/owl actions.vi"/>
+			<Item Name="PID action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/PID action.ctl"/>
+			<Item Name="pid -- parameters.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/pid -- parameters.ctl"/>
+			<Item Name="PLL analyzer -- PID -- V3.vi" Type="VI" URL="../../ark_all/arkady-arxiv/PLL analyzer -- PID -- V3.vi"/>
+			<Item Name="gyro -- async pll engine V2 owl.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- async pll engine V2 owl.vi"/>
+			<Item Name="MFLI_set_datarate -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_set_datarate -- V1.vi"/>
+			<Item Name="mfli reader event.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/mfli reader event.ctl"/>
+			<Item Name="MFLI_set_amplitude -- V1.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_set_amplitude -- V1.vi"/>
+			<Item Name="MFLI frontend action.ctl" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI frontend action.ctl"/>
+			<Item Name="MFLI_api -- V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/MFLI_api -- V2.vi"/>
+			<Item Name="gyro -- sourcer async - V3 -- mfli.vi" Type="VI" URL="../../ark_all/arkady-arxiv/gyro -- sourcer async - V3 -- mfli.vi"/>
+			<Item Name="launch process ref bag -- V2.vi" Type="VI" URL="../../ark_all/arkady-arxiv/launch process ref bag -- V2.vi"/>
 			<Item Name="MCL_DataRef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_DataRef.ctl"/>
-			<Item Name="ARydh_get_voltage -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/ARydh_get_voltage -- V1.vi"/>
 			<Item Name="MCL_Get_DataReadings.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Get_DataReadings.vi"/>
 			<Item Name="FPGASharedResources_Lockin_Typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_Lockin_Typedef.ctl"/>
-			<Item Name="Arydh  lockin fields.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/Arydh  lockin fields.ctl"/>
 			<Item Name="MCL_Get_SynchronousReadings.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Get_SynchronousReadings.vi"/>
 			<Item Name="MCL_Get_FrequencyCtrl.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Get_FrequencyCtrl.vi"/>
 			<Item Name="FPGASharedResources_FreqCtrl_FreqGenTypedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_FreqCtrl_FreqGenTypedef.ctl"/>
@@ -949,34 +975,10 @@
 			<Item Name="FPGASharedResources_PhaseShiftCtrl_Typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek FPGA/FPGA_SharedResources/FPGASharedResources_PhaseShiftCtrl_Typedef.ctl"/>
 			<Item Name="MCL_Init.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Init.vi"/>
 			<Item Name="LIData_DataReadings_typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek Host/LIdata/LIData_DataReadings_typedef.ctl"/>
-			<Item Name="ARydh_set_frequency -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/ARydh_set_frequency -- V1.vi"/>
 			<Item Name="MCL_Set_FrequencyCtrl.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Set_FrequencyCtrl.vi"/>
 			<Item Name="LIControl_LockinTimeConstant_typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek Host/LIControl/LIControl_LockinTimeConstant_typedef.ctl"/>
 			<Item Name="LIControl_FreqCtrl_typedef.ctl" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/SynkTek Host/LIControl/LIControl_FreqCtrl_typedef.ctl"/>
 			<Item Name="MCL_Set_PhaseShiftCtrl.vi" Type="VI" URL="../../nanocal/Nanocalorimetry/data/MCL.lvlibp/MCL library/MCL_Set_PhaseShiftCtrl.vi"/>
-			<Item Name="ARydh_set_freq-and-get--V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/ARydh_set_freq-and-get--V1.vi"/>
-			<Item Name="PLL -- data source -- V3 -- meta.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL -- data source -- V3 -- meta.vi"/>
-			<Item Name="publish -- set frequency.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/publish -- set frequency.vi"/>
-			<Item Name="que event bag action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/que event bag action.ctl"/>
-			<Item Name="arr action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/arr action.ctl"/>
-			<Item Name="gyro -- async sweeper engine.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper engine.vi"/>
-			<Item Name="gyro -- async sweeper monitor V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async sweeper monitor V3.vi"/>
-			<Item Name="draw a complex arrow.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a complex arrow.vi"/>
-			<Item Name="draw a complex line.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/draw a complex line.vi"/>
-			<Item Name="launch items list.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch items list.ctl"/>
-			<Item Name="array -- freq-voltage transformations action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- freq-voltage transformations action.ctl"/>
-			<Item Name="array -- freq-voltage transformations.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/array -- freq-voltage transformations.vi"/>
-			<Item Name="launch process event pair bag -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch process event pair bag -- V2.vi"/>
-			<Item Name="gyro -- async pll engine V2 owl.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async pll engine V2 owl.vi"/>
-			<Item Name="owl parameters.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl parameters.ctl"/>
-			<Item Name="owl action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl action.ctl"/>
-			<Item Name="owl -- send for fit action.ctl" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl -- send for fit action.ctl"/>
-			<Item Name="PLL analyzer -- PID -- V3.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/PLL analyzer -- PID -- V3.vi"/>
-			<Item Name="owl actions.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/owl actions.vi"/>
-			<Item Name="gyro -- async pll monitor V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- async pll monitor V1.vi"/>
-			<Item Name="event pair -- create.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/event pair -- create.vi"/>
-			<Item Name="gyro -- launch async vi -- V1.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/gyro -- launch async vi -- V1.vi"/>
-			<Item Name="launch process ref bag -- V2.vi" Type="VI" URL="../../resonant_ultrasound_arxiv/maglab ultrasound -- arkady --arxiv/launch process ref bag -- V2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="LabActor" Type="EXE">
